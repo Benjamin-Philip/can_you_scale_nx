@@ -2,9 +2,36 @@
 #+date: November 8th, 2022
 #+author: Benjamin Philip
 * Description
+** Why?
+- What is Nx?
+- Why does Nx enable one to do in Elixir?
+** What?
+- Can you scale Nx?
+  - Can it manage a large number concurrent computations?
+  - Can it manage large volumes of data?
+  - Can you manage multiple instances?
+- Implement a simple service
+- How can you scale Nx?
 * Talk Objective(s)
+- Nx's limitations
+- Solutions to its problems
+- Explaining Concurrency with Nx
 * Target audience
+- Elixir Developers interested in using Nx in their applications
+- Elixir Developers curious about Nx
+- All Elixir Developers
+* Level
+Intermediate
 * Which three words would best sum up your talk?
+- Nx
+- Scalability
+- "Machine Learning"
 * Question would you like to be ask during the Q&A
 * Notes
+- First Time Speaker
+- Ideally Interactive
+- Questions to be submitted later
 * Speaker Biography
+- Elixir and FP enthusiast
+- Frequent Contributor to Nx and Livebook
+- Highschooler
