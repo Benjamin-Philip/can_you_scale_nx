@@ -37,9 +37,11 @@ You will learn /how to/ and /what/ goes into scaling an app with Nx.
 - Solutions to its problems
 - Explaining Concurrency with Nx
 * Target audience
-- Elixir Developers interested in using Nx in their applications
-- Elixir Developers curious about Nx
-- All Elixir Developers
+This talk targets (in decreasing order):
+
+  - Elixir Developers interested in using Nx in their applications
+  - Elixir Developers curious about Nx and Machine Learning in Elixir
+  - All Elixir Developers in general
 * Level
 Intermediate
 * Which three words would best sum up your talk?
