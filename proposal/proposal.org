@@ -2,16 +2,36 @@
 #+date: November 8th, 2022
 #+author: Benjamin Philip
 * Description
-** Why?
-- What is Nx?
-- Why does Nx enable one to do in Elixir?
-** What?
-- Can you scale Nx?
+The BEAM was created to solve a very specific problem: to implement highly
+concurrent and scalable telecom infrastructure for Ericsson. The open
+sourcing of Erlang and the creation of Elixir has made the BEAM's concurrency
+features accessible to Modern Applications. However, the needs of Modern
+Applications are more than that of Ericsson. The necessity for Artificial
+Intelligence and Machine Learning has increased over the past few years.
+Unfortunately, the BEAM was not built for AI's high computing demands, and
+fares terribly compared to the likes of Python, C/C++, and the JVM.
+
+Nx was created to bridge that gap. It brings multidimensional matrices (more
+commonly known as tensors) to Elixir, which have been made performant with the
+help of tested projects like Google's XLA and Facebook's LibTorch. Nx along
+with the help of libraries like Axon and Evision makes Neural Networks,
+Computer Vision and more, accessible with just pure Elixir.
+
+Nevertheless, the NIF (native) nature of Nx presents a few questions:
+
+  - Is it thread safe?
   - Can it manage a large number concurrent computations?
   - Can it manage large volumes of data?
+  - Can it manage heavy computations?
   - Can you manage multiple instances?
-- Implement a simple service
-- How can you scale Nx?
+
+and many more.
+
+In this talk we will build a simple Web Service that recognises a variety of
+different kinds of subjects like digits, letters, animals and objects in images.
+We will address the afore mentioned questions and find ways to investigate them.
+You will learn /how to/ and /what/ goes into scaling an app with Nx.
+
 * Talk Objective(s)
 - Nx's limitations
 - Solutions to its problems
