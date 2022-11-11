@@ -1,0 +1,14 @@
+#+title: Proposal
+
+* What?
+This directory contains the proposal for ElixirConf EU 2023.
+
+* How?
+** Depenedencies
+You will need:
+
+1. [[pandoc.org][pandoc]]
+2. A working LaTeX installation like [[https://www.tug.org/texlive/][TeX Live]], [[https://www.tug.org/mactex/][MacTex]], or [[https://miktex.org/][MiKTex]].
+
+** Command
+Run ~rake proposal~ to generate the proposal from the ~org~ source.
