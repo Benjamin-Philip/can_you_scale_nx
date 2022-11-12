@@ -1,5 +1,5 @@
 #+title: Can You Scale Nx?
-#+date: November 8th, 2022
+#+date: November 12th, 2022
 #+author: Benjamin Philip
 * Description
 The BEAM was created to solve a very specific problem: to implement highly
