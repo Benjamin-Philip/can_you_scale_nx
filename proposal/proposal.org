@@ -1,0 +1,140 @@
+#+title: Can You Scale Nx?
+#+date: November 12th, 2022
+#+author: Benjamin Philip
+* Description
+The BEAM was created to solve a very specific problem: to implement highly
+concurrent and scalable telecom infrastructure for Ericsson. The open
+sourcing of Erlang and the creation of Elixir has made the BEAM's concurrency
+features accessible to Modern Applications. However, the needs of Modern
+Applications are more than that of Ericsson. The necessity for Artificial
+Intelligence and Machine Learning has increased over the past few years.
+Unfortunately, the BEAM was not built for AI's high computing demands, and
+fares terribly compared to the likes of Python, C/C++, and the JVM.
+
+Nx was created to bridge that gap. It brings multidimensional matrices (more
+commonly known as tensors) to Elixir, which have been made performant with the
+help of tested projects like Google's XLA and Facebook's LibTorch. Nx along
+with the help of libraries like Axon and Evision makes Neural Networks,
+Computer Vision and more, accessible with just pure Elixir.
+
+Nevertheless, the NIF (native) nature of Nx presents a few questions:
+
+  - Is it thread safe?
+  - Can it manage a large number of concurrent computations?
+  - Can it manage large volumes of data?
+  - Can it manage heavy computations?
+  - Can you manage multiple instances?
+
+and many more.
+
+In this talk we will build a simple Web Service that recognises a variety of
+different kinds of subjects like digits, letters, animals and objects in images.
+We will address the afore mentioned questions and find ways to investigate them.
+You will learn /how to/ and /what/ goes into scaling an app with Nx. In the end,
+we'll answer if "Can *you* scale Nx?".
+
+* Submitted Description
+The BEAM was created to implement highly scalable telecom infrastructure for
+Ericsson. However the needs of Modern Apps are more than Ericsson's. The
+necessity for AI and ML has increased over the past few years. Unfortunately the
+BEAM wasn't built for AI's computing demands, and fares terribly compared
+to the likes of Python, and C
+
+Nx was created to bridge that gap. It brings tensors to Elixir, which are
+performant with the help of XLA and LibTorch, making Neural Networks, and
+Computer Vision accessible to Elixir
+
+Yet, the NIF nature of Nx presents a few questions:
+
+- Can it manage many concurrent computations?
+- Can it manage heavy computations?
+- Can you manage multiple instances?
+
+In this talk we will build a simple Web Service that recognises subjects like
+digits, and objects in images. We will address the afore mentioned questions and
+investigate them. You will learn how to and what goes into scaling an app with
+Nx. In the end, we'll answer if you can scale Nx.
+
+* Talk Objective(s)
+This talk aims to:
+
+  - Discuss the caveats and limitations of using Nx
+  - Present solutions to the caveats and discuss why and when these solutions work
+  - Explain Concurrency with Nx
+  - Provide guidance on how to get started with using Nx in an app
+* Target audience
+This talk targets (in decreasing order):
+
+  - Elixir Developers interested in using Nx in their applications
+  - Elixir Developers curious about Nx and Machine Learning in Elixir
+  - All Elixir Developers in general
+* Level
+Intermediate
+* Which three words would best sum up your talk?
+- Nx
+- Scalability
+- "Machine Learning"
+* Question would you like to be ask during the Q&A
+* Notes
+
+Greetings Proposal Reviewer!
+
+Before you read the rest of the notes, please be informed that these notes have
+been submitted in Markdown. Please view this in a Markdown viewer/renderer. A
+pre-rendered version can be found [[https://github.com/Benjamin-Philip/can_you_scale_nx/blob/main/proposal/proposal.org#notes][here]].
+
+Being a (possibly, at your discretion) First Time Speaker and this being my
+first conference proposal ever, I would first like to mention that this talk may
+not be very high quality. It may not be particularly funny (think Aaron
+Patterson (tenderlove)) though I will do my best! There might be the occasional
+"Death By Powerpoint" Slide, though again I will be particularly careful to
+avoid those. I may even "lose my flow" and mumble. Hopefully (touch wood,
+fingers crossed) that will not happen.
+
+Secondly, since I was not very clear on the proposal format, I have treated the
+Description as combination of an Abstract and a Description as explained in
+[[http://www.sarahmei.com/blog/2014/04/07/what-your-conference-proposal-is-missing/][Sarah Mei's blog]] and the Talk Objectives as a section to list the main
+objectives of the talk in bullet points. Please contact me via email if there
+are to be any changes to the proposal's format, language, punctuation, grammar,
+wording and etc. Also, I have submitted the proposal in Markdown in order to
+better express myself.
+
+Thirdly, my content is not concrete. Since I have [[https://en.wikipedia.org/wiki/Board_examination][Board Exams]] in 4 months (and
+preparatory mock exams before that) I haven't had the time to research and fully
+flesh out my content to my satisfaction. As a result I will only be able to
+submit questions (post|end of) February. Similarly, my Description and Talk
+Objective(s) may change. I would ideally, also like the talk to be interactive -
+i.e. I ask the audience questions and suggestions to help make the talk
+engaging. In case you think that this is not possible, or unideal, I can always
+change this aspect of my talk. *Additionally, I had to cut parts of my
+description due to the word limit. The full description can be found [[https://github.com/Benjamin-Philip/can_you_scale_nx/blob/main/proposal/proposal.org][here]].* We
+can work out a better description later.
+
+Fourthly, you may get the feeling that this talk is a bit "all rounded" and a
+bit unfocused about one specific aspect of Nx. This was because this talk idea
+started as an inquiry into Nx's limitations, particularly its scalability and
+concurrency. When I was looking into this, I realized that I ought to provide
+solutions to the problems I encounter. I decided that I must build my test app with
+the solutions as well. While building the app, I had the thought that I should
+also present "best practices" and "idioms" for Nx. This "all roundedness" *will
+be* fixed, again, post Feb.
+
+Lastly, regarding the concerns on trusting a teenager to give a tech talk,
+specifically a teenager with zero working experience: think about the
+representation of two smaller groups within the Elixir Community: Indians and
+Geeky Teenagers (I might be the sole member here)! If it's any consolation, my
+Father has (in my opinion) a lot of experience giving tech talks, so I'm not
+without guidance. Plus the Elixir Ecosystem needs all the help it can get to
+mature the Machine Learning and Data Science Ecosystem within in it.
+
+* Speaker Biography
+Benjamin is an Elixir and Functional Programming enthusiast. Though not a core
+contributor, he frequently contributes to the Nx and Livebook projects with the
+occasional contributions to Hexpm and Hex. Being a 16 year old highschooler, he
+does not have any professional programming experience but he tries to contribute
+to Opensource whenever time permits.
+
+In his free time he likes to read Non Fiction and Fantasy, listen to 70s and
+80s music (and additionally grumble about how nobody at school shares his
+taste in music) and crack terrible jokes. Beware. He's bit of a Linux and
+Emacs zealot.
