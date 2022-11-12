@@ -30,12 +30,16 @@ and many more.
 In this talk we will build a simple Web Service that recognises a variety of
 different kinds of subjects like digits, letters, animals and objects in images.
 We will address the afore mentioned questions and find ways to investigate them.
-You will learn /how to/ and /what/ goes into scaling an app with Nx.
+You will learn /how to/ and /what/ goes into scaling an app with Nx. In the end,
+we'll answer if "Can *you* scale Nx?".
 
 * Talk Objective(s)
-- Nx's limitations
-- Solutions to its problems
-- Explaining Concurrency with Nx
+This talk aims to:
+
+  - Discuss the caveats and limitations of using Nx
+  - Present solutions to the caveats and discuss why and when these solutions work
+  - Explain Concurrency with Nx
+  - Provide guidance on how to get started with using Nx in an app
 * Target audience
 This talk targets (in decreasing order):
 
