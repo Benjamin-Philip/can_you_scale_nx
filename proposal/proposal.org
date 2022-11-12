@@ -54,9 +54,51 @@ Intermediate
 - "Machine Learning"
 * Question would you like to be ask during the Q&A
 * Notes
-- First Time Speaker
-- Ideally Interactive
-- Questions to be submitted later
+
+Greetings Proposal Reviewer!
+
+Being a (possibly, at your discretion) First Time Speaker and this being my
+first conference proposal ever, I would first like to mention that this talk may
+not be very high quality. It may not be particularly funny (think Aaron
+Patterson (tenderlove)) though I will do my best! There might be the occasional
+"Death By Powerpoint" Slide, though again I will be particularly careful to
+avoid those. I may even "lose my flow" and mumble. Hopefully (touch wood,
+fingers crossed) that will not happen.
+
+Secondly, since I was not very clear on the proposal format, I have treated the
+Description as combination of an Abstract and a Description as explained in
+[[http://www.sarahmei.com/blog/2014/04/07/what-your-conference-proposal-is-missing/][Sarah Mei's blog]] and the Talk Objectives as a section to list the main
+objectives of the talk in bullet points. Please contact me via email if there
+are to be any changes to the proposal's format, language, punctuation, grammar,
+wording and etc. Also, I have submitted the proposal in Markdown in order to
+better express myself.
+
+Thirdly, my content is not concrete. Since I have [[https://en.wikipedia.org/wiki/Board_examination][Board Exams]] in 4 months (and
+preparatory mock exams before that) I haven't had the time to research and fully
+flesh out my content to my satisfaction. As a result I will only be able to
+submit questions (post|end of) February. Similarly, my Description and Talk
+Objective(s) may change. I would ideally, also like the talk to be interactive -
+i.e. I ask the audience questions and suggestions to help make the talk
+engaging. In case you think that this is not possible, or unideal, I can always
+change this aspect of my talk.
+
+Fourthly, you may get the feeling that this talk is a bit "all rounded" and a
+bit unfocused about one specific aspect of Nx. This was because this talk idea
+started as an inquiry into Nx's limitations, particularly its scalability and
+concurrency. When I was looking into this, I realized that I ought to provide
+solutions to the problems I encounter. I decided that I must build my test app with
+the solutions as well. While building the app, I had the thought that I should
+also present "best practices" and "idioms" for Nx. This "all roundedness" *will
+be* fixed, again, post Feb.
+
+Lastly, regarding the concerns on trusting a teenager to give a tech talk,
+specifically a teenager with zero working experience: think about the
+representation of two smaller groups within the Elixir Community: Indians and
+Geeky Teenagers (I might be the sole member here)! If it's any consolation, my
+Father has (in my opinion) a lot of experience giving tech talks, so I'm not
+without guidance. Plus the Elixir Ecosystem needs all the help it can get to
+mature the Machine Learning and Data Science Ecosystem within in it.
+
 * Speaker Biography
 Benjamin is an Elixir and Functional Programming enthusiast. Though not a core
 contributor, he frequently contributes to the Nx and Livebook projects with the
