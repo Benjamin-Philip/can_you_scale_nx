@@ -3,7 +3,8 @@ require 'rake/clean'
 multitask :proposal => ["proposal/proposal.md", "proposal/proposal.pdf"]
 
 file "proposal/proposal.md" => "proposal/proposal.org" do
-  sh "pandoc -f org -t markdown -o proposal/proposal.md proposal/proposal.org"
+  sh "pandoc -f org -t markdown_strict --columns=100 " +
+      "-o proposal/proposal.md proposal/proposal.org"
 end
 
 file "proposal/proposal.pdf" => "proposal/proposal.org" do
