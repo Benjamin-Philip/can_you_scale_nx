@@ -114,10 +114,10 @@ Fourthly, you may get the feeling that this talk is a bit "all rounded" and a
 bit unfocused about one specific aspect of Nx. This was because this talk idea
 started as an inquiry into Nx's limitations, particularly its scalability and
 concurrency. When I was looking into this, I realized that I ought to provide
-solutions to the problems I encounter. I decided that I must build my test app with
-the solutions as well. While building the app, I had the thought that I should
-also present "best practices" and "idioms" for Nx. This "all roundedness" *will
-be* fixed, again, post Feb.
+solutions to the problems I encounter. I decided that I must build my test app
+with the solutions as well. While building the app, I had the thought that I
+should also present "best practices", "idioms" and even a "how to get started"
+for Nx. This "all roundedness" *will be* fixed, again, post Feb.
 
 Lastly, regarding the concerns on trusting a teenager to give a tech talk,
 specifically a teenager with zero working experience: think about the
@@ -125,7 +125,14 @@ representation of two smaller groups within the Elixir Community: Indians and
 Geeky Teenagers (I might be the sole member here)! If it's any consolation, my
 Father has (in my opinion) a lot of experience giving tech talks, so I'm not
 without guidance. Plus the Elixir Ecosystem needs all the help it can get to
-mature the Machine Learning and Data Science Ecosystem within in it.
+mature the Machine Learning and Data Science Ecosystem within in it. If you
+doubt I have the technical ability to actually write valid content, do note that
+I had the technical skill and knowledge to contribute a to [[https://github.com/elixir-nx/nx/commits?author=Benjamin-Philip][a number of PRs]] to
+Nx. Since I have opted for a remote talk, complications pertaining to obtaining a
+visa, as well as the cost of travelling to Lisbon have been cancelled out too.
+Don't wanna sound to [[https://www.urbandictionary.com/define.php?term=desp][desp]] but I hope you will consider my proposal despite my
+age. If it's not asking too much, please also accommodate my requests for
+changes post selection.
 
 * Speaker Biography
 Benjamin is an Elixir and Functional Programming enthusiast. Though not a core
@@ -134,7 +141,6 @@ occasional contributions to Hexpm and Hex. Being a 16 year old highschooler, he
 does not have any professional programming experience but he tries to contribute
 to Opensource whenever time permits.
 
-In his free time he likes to read Non Fiction and Fantasy, listen to 70s and
-80s music (and additionally grumble about how nobody at school shares his
-taste in music) and crack terrible jokes. Beware. He's bit of a Linux and
-Emacs zealot.
+In his free time he likes to read Non Fiction and Fantasy, listen to 70s and 80s
+music (and additionally grumble about how nobody at school shares his taste in
+music) and crack terrible jokes. Beware. He's bit of a Linux and Emacs zealot.
